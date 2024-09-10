@@ -1,0 +1,59 @@
+.main_counter{
+    height: 50vh;
+    width: 70vw;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    gap: 1vw;
+   
+}
+button{
+    height: 5vh;
+    width: 10vw;
+   background-color: lightseagreen;
+   border: none;
+   color: white;
+   
+}
+.main_counter h1{
+    color: lightseagreen;
+    font-weight: bold;
+}
+button:hover{
+    color: black;
+    background-color: lightblue;
+}
+.main_counter1{
+    height: 50vh;
+    width: 70vw;
+    background-color: rgba(212, 219, 222, 0.679);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+.inputfiled{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.buttonss{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.main_counter1 h1{
+   font-size: 2vw;
+   color: lightseagreen;
+
+}
+.main_counter1 p{
+    color: lightseagreen;
+    font-size: 1.50vw;
+}
